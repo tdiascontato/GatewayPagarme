@@ -1,0 +1,23 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "libphonenumber-js": "^1.10.44",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.1",
+    "pagarme": "^4.33.1",
+    "uuid": "^9.0.1",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0"
+  }
+}

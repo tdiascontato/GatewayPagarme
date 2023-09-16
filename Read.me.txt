@@ -1,0 +1,8 @@
+Pedido enviado após status concluido de pagamento.
+﻿
+
+Requisição <-> '/transactions' <-> Controller.create <-> Service <-> API / Gateway
+
+Validador Yup
+Validador libphonenumber
+validador cpf-cnpj-validator
